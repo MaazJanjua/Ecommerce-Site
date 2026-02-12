@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.variable} antialiased`}>
         <Navbar />
-        <div className="min-h-[88vh]  bg-[#00000] bg-[radial-gradient(#ffffff33_.1px,#00091d_.8px)] bg-[size:20px_20px]">
+        <div className="min-h-[85vh]  bg-[#00000] bg-[radial-gradient(#ffffff33_.1px,#00091d_.8px)] bg-[size:20px_20px]">
          
           {children}
         </div>
