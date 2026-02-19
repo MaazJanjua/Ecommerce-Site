@@ -19,13 +19,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.variable} antialiased`}>
-        <Navbar />
-        <div className="min-h-[85vh]  bg-[#00000] bg-[radial-gradient(#ffffff33_.1px,#00091d_.8px)] bg-[size:20px_20px]">
-         
-          {children}
-        </div>
-        <Footer />
-      </body>
-    </html>
+      <Navbar />
+      <div className="min-h-[88vh]  bg-[#00000] bg-[radial-gradient(#ffffff33_.1px,#00091d_.8px)] bg-[size:20px_20px] text-white">
+
+        {children}
+      </div>
+    
+      <Footer />
+      <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    </body>
+    </html >
   );
 }
